@@ -13,7 +13,7 @@ import Prelude.Compat
 import Control.Monad.State
 import Control.Monad.Writer
 import Data.Maybe
-import Data.List.Compat
+import Data.List.Compat hiding (singleton)
 import qualified Data.Map as Map
 import qualified Data.Set as Set
 import Text.PrettyPrint (Doc, text)
